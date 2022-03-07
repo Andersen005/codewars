@@ -15,3 +15,8 @@ function digitize(n) {
   }
   return newArr
 };
+
+
+//"One-line" solution:
+
+arr = String(num).split("").reverse().map(Number);
